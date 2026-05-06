@@ -90,3 +90,4 @@ Runs a 1ms guardian thread that monitors all player stat arrays and writes MaxHP
 - Works with Lutris, Steam/Proton, or plain Wine. The process finder looks for `D2R.exe` in /proc.
 - Gold writes also update the .d2s save file (with backup) so the value persists across sessions.
 - `tools/find-offsets.cpp` is a standalone research tool for tracing pointer chains from a known address back to the PE image. Not needed at runtime.
+- D2R under Wine/Proton can be unstable. Random freezes and crashes have been observed to happen independent of the trainer, likely due to the translation layer between DirectX and Vulkan (DXVK). If you get consistent crashes within a specific time or condition, it could be the trainer; otherwise, if they're occurring at varying intervals it's probably just Wine being Wine.
