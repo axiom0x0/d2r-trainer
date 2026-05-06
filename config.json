@@ -1,0 +1,30 @@
+{
+  "process_name": "D2R.exe",
+  "module": "D2R.exe",
+  "cheats": [
+    {
+      "name": "Gold",
+      "base_offset": "0x0000000",
+      "offsets": ["0x0"],
+      "type": "int32",
+      "god": "false",
+      "god_value": ""
+    },
+    {
+      "name": "Health",
+      "base_offset": "0x0000000",
+      "offsets": ["0x0"],
+      "type": "int32",
+      "god": "true",
+      "god_value": "999999"
+    },
+    {
+      "name": "Mana",
+      "base_offset": "0x0000000",
+      "offsets": ["0x0"],
+      "type": "int32",
+      "god": "true",
+      "god_value": "999999"
+    }
+  ]
+}
